@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro - Tienda Multimarca</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; }
+    nav { background-color: #1a252f; padding: 15px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .box { max-width: 450px; margin: 40px auto; padding: 25px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h2 { text-align: center; color: #2c3e50; margin-bottom: 20px; }
+    label { display: block; margin: 10px 0 5px; font-weight: bold; }
+    input, select { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    button { width: 100%; background: #3498db; color: white; padding: 12px; border: none; border-radius: 4px; font-size: 16px; margin-top: 20px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+    footer { background: #1a252f; color: white; text-align: center; padding: 15px; margin-top: 40px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="ropa.html">Ropa</a>
+    <a href="cosmeticos.html">Cosméticos</a>
+    <a href="calzado.html">Calzado</a>
+    <a href="celulares.html">Celulares</a>
+    <a href="registro.html">Registro / Login</a>
+  </nav>
+
+  <div class="box">
+    <h2>Registro de Usuario</h2>
+    <form action="#" method="POST">
+      <label>Nombre Completo:</label>
+      <input type="text" name="nombre" placeholder="Tu nombre completo" required>
+
+      <label>Correo Electrónico:</label>
+      <input type="email" name="email" placeholder="correo@ejemplo.com" required>
+
+      <label>Contraseña:</label>
+      <input type="password" name="password" required>
+
+      <label>Marca de Interés Preferida:</label>
+      <select name="marca_preferida">
+        <option value="Nike">Nike</option>
+        <option value="Adidas">Adidas</option>
+        <option value="Apple">Apple</option>
+        <option value="Samsung">Samsung</option>
+        <option value="MAC">MAC</option>
+        <option value="L'Oréal">L'Oréal</option>
+      </select>
+
+      <button type="submit">Registrarse</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Desarrollado por: Lira Molina Dylan Daniel | Grupo: 5J</p>
+  </footer>
+
+</body>
+</html>
